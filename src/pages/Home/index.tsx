@@ -13,7 +13,7 @@ function Home() {
                     <span>Julio Fonseca</span>
                 </div>
                 <div className='text-base mb-5 text-center' style={{ fontWeight: '300' }}>
-                    <span>21 • Frontend Enginer at <a href={'https://www.softbuilder.com.br/web/'} target={'_blank'}> <span className='hover:text-blue-300'>Softbuilder</span></a>• Ceará, Brazil</span>
+                    <span>21 • Frontend Enginer at <a href={'https://www.softbuilder.com.br/web/'} target={'_blank'}> <span className='hover:text-blue-300'>Softbuilder</span></a> • Ceará, Brazil</span>
                 </div>
                 <div className='flex gap-5'>
                     <a href={'https://www.linkedin.com/in/ojuliofonseca/'} target={'_blank'}>
