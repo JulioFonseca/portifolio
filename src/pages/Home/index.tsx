@@ -1,32 +1,35 @@
 import { } from 'react'
-import avatarImg from '../../assets/mini-avatar-julio.png'
+import avatarImg from '../../assets/img/avatar.png'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { FaTwitter } from 'react-icons/fa';
 import resumePDF from '../../assets/Resume.pdf'
 
 function Home() {
     return (
-        <div className="p-20 py-28">
-            <div className="bg-gray-200 rounded-2xl">
-                <div className="max-w-7xl mx-auto pt-12 px-4 sm:px-6 lg:pt-16 lg:px-8 lg:flex lg:items-center ">
-                    <div className='rounded-full scale-90'>
-                        <img src={avatarImg}>
-                        </img>
-                    </div>
-                    <h2 className=" font-extrabold tracking-tight text-gray-900 lg:ml-4">
-                        <span className="block text-3xl sm:text-4xl">Hello! I am Julio</span>
-                        <span className="block text-indigo-600 text-xl">I´m a 2 year experienced
-                            Junior Software Engineer </span>
-                    </h2>
+        <div className='flex flex-col w-full h-screen justify-center items-center'>
+            <div className='flex flex-col items-center text-white'>
+                <img className='h-48 w-48 rounded-full mx-auto mb-4' src={avatarImg} />
+                <div className='mb-3 text-3xl'>
+                    <span>Julio Fonseca</span>
                 </div>
-                <div className='px-10 pb-5 flex justify-center'>
-                <div className="mt-8 flex lg:mt-0">
-                        <div className="inline-flex rounded-md shadow">
-                            <a href="mailto:juliocezar5716@gmail.com?Subject=Hello" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"> Contact me </a>
-                        </div>
-                        <div className="ml-3 inline-flex rounded-md shadow">
-                            <a href={resumePDF} target='_blank' className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50"> Resume </a>
-                        </div>
-                    </div>
+                <div className='text-base mb-5' style={{ fontWeight: '300' }}>
+                    <span>21 • Frontend Enginer at <a href={'https://www.linkedin.com/in/ojuliofonseca/'} target={'_blank'}> <span className='hover:text-blue-300'>Softbuilder</span></a>• Ceará, Brazil</span>
                 </div>
+                <div className='flex gap-5'>
+                    <a href={'https://www.linkedin.com/in/ojuliofonseca/'} target={'_blank'}>
+                        <AiFillLinkedin size={'28px'} />
+                    </a>
+                    <a href={'https://github.com/JulioFonseca'} target={'_blank'}>
+                        <AiFillGithub size={'28px'} />
+                    </a>
+                    <a href={'https://twitter.com/jufonx'} target={'_blank'}>
+                        <FaTwitter size={'28px'} />
+                    </a>
+                </div>
+            </div>
+            <div className='flex gap-5 justify-end items-end max-h-screen text-white z-10 absolute bottom-5'>
+                <a href='mailto:juliocezar5716@gmail.com?Subject=Hey' className='hover:text-blue-300'> hire me </a>
+                <a href={resumePDF} target='_blank' className='hover:text-blue-300'> Resume </a>
             </div>
         </div>
     )
