@@ -1,8 +1,10 @@
 import { } from 'react'
 import avatarImg from '../../assets/img/avatar.png'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { FaTwitter } from 'react-icons/fa';
-import resumePDF from '../../assets/Resume.pdf'
+import { AiFillGithub, AiFillLinkedin, AiOutlineMedium } from 'react-icons/ai';
+import { FaDev, FaStackOverflow } from 'react-icons/fa';
+
+
+import resumePDF from '../../assets/resume-julio-fonseca.pdf'
 
 function Home() {
     return (
@@ -15,21 +17,27 @@ function Home() {
                 <div className='text-base mb-5 text-center' style={{ fontWeight: '300' }}>
                     <span>21 • Frontend Enginer at <a href={'https://www.softbuilder.com.br/web/'} target={'_blank'}> <span className='hover:text-blue-300'>Softbuilder</span></a> • Ceará, Brazil</span>
                 </div>
-                <div className='flex gap-5'>
-                    <a href={'https://www.linkedin.com/in/ojuliofonseca/'} target={'_blank'}>
-                        <AiFillLinkedin size={'28px'} />
+                <div className='flex gap-3'>
+                    <a href={'https://www.linkedin.com/in/ojuliofonseca/'}>
+                        <AiFillLinkedin size={'25px'} />
                     </a>
-                    <a href={'https://github.com/JulioFonseca'} target={'_blank'}>
-                        <AiFillGithub size={'28px'} />
+                    <a href={'https://github.com/JulioFonseca'}>
+                        <AiFillGithub size={'25px'} />
                     </a>
-                    <a href={'https://twitter.com/jufonx'} target={'_blank'}>
-                        <FaTwitter size={'28px'} />
+                    <a href={'https://medium.com/@ojuliofonseca'}>
+                        <AiOutlineMedium size={'25px'} />
+                    </a>
+                    <a href={'https://dev.to/juliofonseca'}>
+                        <FaDev size={'25px'} />
+                    </a>
+                    <a href={'https://stackoverflow.com/users/10274207/julio-fonseca'}>
+                        <FaStackOverflow size={'25px'} />
                     </a>
                 </div>
             </div>
             <div className='flex gap-5 justify-end items-end max-h-screen text-white z-10 absolute bottom-2'>
                 <a href='mailto:juliocezar5716@gmail.com?Subject=Hey' className='hover:text-blue-300'> hire me </a>
-                <a href={resumePDF} target='_blank' className='hover:text-blue-300'> Resume </a>
+                <a href={resumePDF} target='_blank' className='hover:text-blue-300'> resume </a>
             </div>
         </div>
     )
