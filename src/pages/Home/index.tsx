@@ -18,19 +18,19 @@ function Home() {
                     <span>21 • Frontend Enginer at <a href={'https://www.softbuilder.com.br/web/'} target={'_blank'}> <span className='hover:text-blue-300'>Softbuilder</span></a> • Ceará, Brazil</span>
                 </div>
                 <div className='flex gap-3'>
-                    <a href={'https://www.linkedin.com/in/ojuliofonseca/'}>
+                    <a href={'linkedin.com/in/ojuliofonseca/'}>
                         <AiFillLinkedin size={'25px'} />
                     </a>
-                    <a href={'https://github.com/JulioFonseca'}>
+                    <a href={'github.com/JulioFonseca'}>
                         <AiFillGithub size={'25px'} />
                     </a>
-                    <a href={'https://medium.com/@ojuliofonseca'}>
+                    <a href={'ojuliofonseca.medium.com/'}>
                         <AiOutlineMedium size={'25px'} />
                     </a>
-                    <a href={'https://dev.to/juliofonseca'}>
+                    <a href={'dev.to/juliofonseca'}>
                         <FaDev size={'25px'} />
                     </a>
-                    <a href={'https://stackoverflow.com/users/10274207/julio-fonseca'}>
+                    <a href={'stackoverflow.com/users/10274207/julio-fonseca'}>
                         <FaStackOverflow size={'25px'} />
                     </a>
                 </div>
