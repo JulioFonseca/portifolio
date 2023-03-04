@@ -24,7 +24,7 @@ function Home() {
                     <a href={'github.com/JulioFonseca'}>
                         <AiFillGithub size={'25px'} />
                     </a>
-                    <a href={'ojuliofonseca.medium.com/'}>
+                    <a href={'medium.com/@ojuliofonseca'}>
                         <AiOutlineMedium size={'25px'} />
                     </a>
                     <a href={'dev.to/juliofonseca'}>
