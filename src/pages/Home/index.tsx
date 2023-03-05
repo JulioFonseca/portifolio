@@ -8,7 +8,7 @@ import resumePDF from '../../assets/resume-julio-fonseca.pdf'
 
 function Home() {
     return (
-        <div className='flex flex-col w-full h-screen justify-center items-center'>
+        <div className='flex flex-col w-full h-screen justify-center items-center z-10 absolute'>
             <div className='flex flex-col items-center text-white'>
                 <img className='h-48 w-48 rounded-full mx-auto mb-4' src={avatarImg} />
                 <div className='mb-3 text-3xl'>
