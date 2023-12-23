@@ -15,7 +15,7 @@ function Home() {
                     <span>Julio Fonseca</span>
                 </div>
                 <div className='text-base mb-5 text-center' style={{ fontWeight: '300' }}>
-                    <span>22 • Frontend Enginer at <a href={'https://www.softbuilder.com.br/web/'} target={'_blank'}> <span className='hover:text-blue-300'>Softbuilder</span></a> • Ceará, Brazil</span>
+                    <span>22 • Full-Stack Developer at <a href={'https://www.softbuilder.com.br/web/'} target={'_blank'}> <span className='hover:text-blue-300'>Softbuilder</span></a> • Ceará, Brazil</span>
                 </div>
                 <div className='flex gap-3'>
                     <a href={'https://linkedin.com/in/ojuliofonseca/'}>
